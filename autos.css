@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body {
+  margin: 3% !important;
+}
+#cars3 {
+  width: 40%;
+}
+#loginContainer{
+  width: 100%;
+}
+
+.welcome {
+  width: 46%;
+  margin: 5px;
+  padding: 5px 15px;
+  text-align: center;
+  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+  border-radius: 30px;
+  border: none;
+  background-size: 200% auto;
+  color: #083136;
+  background-image: linear-gradient(
+    to right,
+      #ffbc5b 0%,
+      #ff5645 50%,
+      #f7213d 50%,
+      #dd07b7 100%
+  );
+}
+.hint{
+  font-family: "Press Start 2P";
+  font-size: 40%  !important ;
+}
+
+input#submit {
+  margin-top: 5%;
+  width: 10em;
+  text-transform: uppercase;
+}
+
+input, button, select, optgroup, textarea {
+  margin: 0 0 2.5% 0 !important;
+  font-weight: bold;
+  border-style: solid;
+  /* border-color: #000000; */
+  border-color: red;
+  border-width: medium;
+}
+
+form {
+  text-align: center;
+}
+
+i.carsIcon {
+  margin-right: 5% !important;
+}
+
+#moduleMessage {
+  color: red;
+  text-align: center;
+}
+
+#moduleMessageII {
+  color: green;
+  text-align: center;
+}
+
+#noteIndex {
+  font-size: 8px !important;
+}
+
+#logInText{
+  font-size: 150%;
+  text-transform: uppercase;
+}
+
+
+#loginContainer input {
+  text-align: center !important;
+}
+
+/* #gameContainer h1,p {
+  margin-bottom: 5%;
+  text-transform: uppercase;
+  text-align: center !important;
+} */
+#autosDB {
+  border: none;
+}
+#editBox {
+  border: solid;
+  border-color: red;
+  border-radius: 30%;
+  background-image: linear-gradient(red, yellow);
+}
+
+#gameContainer form,input {
+  text-align: right !important;
+}
+
+.buttons{
+  text-align: center;
+}
+.cancel-btn {
+  width: 500px;
+  height: 20px;
+  border: none;
+  background-color: transparent;
+}
+.update-btn {
+  width: 500px;
+  height: 20px;
+  border: none;
+  background-color: transparent;
+}
+#delBkgd {
+  width: 57%;
+}
+.no-underline {
+    text-decoration: none;
+}
+#loginH1 {
+  font-size: 290%;
+  text-align: center;
+
+  margin-bottom: 3%;
+
+}
+
+.autosDisplay {
+   text-align: left !important;
+}
+
+.autosDataBaseDisplayed, td, tr {
+  text-align: left !important;
+  padding: 0.5em !important;
+  text-transform: uppercase;
+}
+
+/* body {
+  padding-top: 50px;
+} */
+.styles {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+
+         .btn-grad1 {background-image: linear-gradient(to right, #24C6DC 0%, #514A9D  51%, #24C6DC  100%)}
+         .btn-grad1 {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;
+            border: none;
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad1:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+
+
+
+         .btn-grad2 {background-image: linear-gradient(to right, #DC2424 0%, #4A569D  51%, #DC2424  100%)}
+         .btn-grad2 {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+            text-decoration: none;
+
+          }
+
+          .btn-grad2:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+
+
+.primary-button {
+  margin: 5px;
+  padding: 5px 15px;
+  text-align: center;
+  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+  border-radius: 30px;
+  border: none;
+  background-size: 200% auto;
+  color: #083136;
+  background-image: linear-gradient(
+    to right,
+      #ffbc5b 0%,
+      #ff5645 50%,
+      #f7213d 50%,
+      #dd07b7 100%
+  );
+}
+.avatar {
+  height: 150px;
+  width: 150px;
+  position: relative;
+}
+.myContainer {
+  border-color: #2E86C1;
+  /* border-style: groove; */
+  border-style: solid;
+  border-width: 7px;
+  width: 300px;
+  height: 500px;
+  position: relative;
+  padding: 40px;
+}
+
+#overlay {
+  position: absolute;
+  top: 8%;
+  left: 35%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+.bkgd {
+  background-image: url('img/Rock-paper-scissors.svg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.h1a {
+  color:yellow;
+  text-shadow: 2px 2px #FF0000;
+}
+.h1b {
+  color:blue;
+}
+
+h3 {
+  color:red;
+}
